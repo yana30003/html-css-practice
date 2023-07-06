@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login Page</title>
+    <style>
+        .header {
+            text-align: center;
+            padding: 40px 0px;
+        }
+
+        .logo {
+            height: 150px;
+            display: block;
+            margin: 0 auto
+        }
+
+        .pageWrap {
+            background-image: url(https://www.shutterstock.com/image-vector/abstract-background-3d-spheres-golden-600w-1175871217.jpg);
+            height: 100vph;
+        }
+
+
+
+        input,
+        button {
+
+            padding: 20px 20px;
+            margin: auto;
+            width: -webkit-fill-available;
+        }
+
+        .inputWrap {
+            margin: 15px 0px;
+        }
+
+
+        .inlineBlock {
+            width: auto;
+        }
+
+        .loginFormWrap {
+            padding: 40px;
+            max-width: 400px;
+            background-color: #fff;
+            margin: 0 auto;
+        }
+
+        .logoTitle {
+            margin: 0 auto;
+            text-align: center;
+            max-width: 400px;
+
+        }
+
+        .text-center {
+            padding: 20px 0px;
+            text-align: center;
+        }
+
+        .lngWrap {
+            text-align: right;
+        }
+
+        .formTitle {
+            text-align: center;
+        }
+
+        .termWrap {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="pageWrap">
+        <div class="header">
+            <img class="logo"
+                src="https://www.freepnglogos.com/uploads/youtube-logo-png/youtube-transparent-youtube-icon-29.png"
+                alt="logo" <p class="logoTitle"><b> Welcome to Youtube Channel. Hope you will enjoy your experience.</b>
+            </p>
+        </div>
+        <div class="loginFormWrap">
+            <form>
+                <div class="lngWrap">
+                    <select name="language">
+                        <option value="English">English</option>
+                        <option value="Spanish">Spanish</option>
+                    </select>
+                </div>
+                <h2 class="formTitle"> Login Form</h2>
+                <div>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                </div>
+                <div>
+                    <div class="termWrap">
+                    </div>
+                    <div class="inputWrap">
+                        <input class="inlineBlock" type="checkbox"> Agree terms & Conditions
+                    </div>
+                    <div class="inputWrap">
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <div class="inputWrap">
+                        <button>Submit</button>
+                    </div>
+                    <div class="text-center">Need an account? <a href="#">Sign Up?</a> </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!-- <!DOCTYPE html>
+
+<head>
+    <style>
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer
+        }
+
+        .tooltip-text {
+            position: absolute;
+            background-color: grey;
+            color: white;
+            padding: 8px;
+            display: inline-block;
+            border-radius: 4px;
+            z-index: 1;
+            text-align: center;
+        }
+    </style>
+    <title>Tooltip</title>
+</head>
+
+<body>
+    <span class="tooltip">Tooltip on Top<span class="tooltip-text">Tooltip on Top</span></span>
+
+
+</body>
+
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .btn-tooltip {}
+    </style>
+    <title>Tooltip</title>
+</head>
+
+<body>
+    <button type="button" class="btn-tooltip">Tooltip on Top</button>
+
+    <style>
+        .tooltipWrap {
+            position: relative;
+        }
+
+        .tooltipWrap .tooltipTitle {
+            display: none;
+        }
+
+        .tooltipWrap:hover .tooltipTitle {
+            display: block;
+            position: absolute;
+            border-radius: 5px;
+            bottom: -45px;
+            padding: 10px;
+            background: green;
+        }
+
+        .tooltipWrap:hover .tooltipTitle:before {
+            width: 20px;
+            height: 20px;
+            background-color: green;
+            position: absolute;
+            content: '';
+            top: -2px;
+            z-index: -1;
+            transform: rotate(45deg);
+            color: #fff;
+        }
+    </style>
+
+    <div class="tooltipWrap">
+        <span class="tooltipTitle">this is for information balur item</span>
+        item
+    </div>
+</body>
+
+</html>

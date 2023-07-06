@@ -1,0 +1,14 @@
+.btn {
+    border: 2px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 30px;
+    background-color: white;
+    transition: background-color 0.5s;
+
+}
+
+.btn:hover {
+    background-color: orangered;
+    color: white;
+}

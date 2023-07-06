@@ -1,0 +1,14 @@
+.gameWrap {
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gameWrap div {
+    width: 24%;
+    border: 1px solid black;
+}
+
+.active {
+    background-color: red;
+}
