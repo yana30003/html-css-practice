@@ -22,3 +22,12 @@ git merge branchName
 to initialze new repo with git this command used only first time
 git init
 
+to add remote 
+git remote add remotePath
+
+
+to check remote pathName
+git remote -v
+
+to check modified files 
+git status
